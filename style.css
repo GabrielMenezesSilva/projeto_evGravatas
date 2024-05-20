@@ -34,6 +34,21 @@ body {
 }
 
 /* NAV ------------------------------------------- */
+
+#burguer{
+  background-color: #695B32;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  display: none; /* enlever pour la responsivite*/
+}
+#burguer:hover{
+  background-color: white;
+  color: #695B32;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -44,7 +59,7 @@ nav ul {
 
 nav li {
   margin-right: 40px;
-
+  text-transform: uppercase;
 }
 
 nav a {
@@ -408,6 +423,11 @@ figure.zoom img {
 
 
 @media screen and (max-width: 576px) {
+ 
+  #burguer{
+    display: block;
+  }
+ 
   body {
     font-size: 14px;
     text-align: justify;
@@ -425,14 +445,13 @@ nav ul{
   top: 0%;
   right: 0%;
   padding: 10px;
-  display: block;
-
+  display: none;
 }
 
-.navigation li{
-  display: block;
+/* .navigation li{
+  display: none;
   margin-right: 0%;
-}
+} */
 
 
 .container_flex .hero{

@@ -16,6 +16,10 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
   </head>
   <body>
     <header id="header">
@@ -26,8 +30,15 @@
             ><img src="images/submarca-d-agua-ev-gravatas.png" alt="Logo"
           /></a>
         </div>
+        <span
+          id="burguer"
+          class="material-symbols-outlined"
+          oneclick="clickMenu()"
+        >
+          menu
+        </span>
         <nav class="navigation">
-          <ul id="menu">
+          <ul id="itens">
             <li><a href="#home">home</a></li>
             <li><a href="#qualidade">qualité</a></li>
             <li><a href="#sobre">à propos</a></li>
@@ -42,7 +53,7 @@
     <!-- hero -->
     <div class="div-foto1" id="home">
       <!-- <img class="foto1" src="images/index.png" alt="" /> -->
-      <video class="foto1" width="640" height="360"  autoplay muted loop>
+      <video class="foto1" width="640" height="360" autoplay muted loop>
         <source src="images/home.mp4" type="video/mp4" />
       </video>
     </div>
