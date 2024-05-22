@@ -594,5 +594,8 @@ form input {
 #produto{
   max-height: 100vh;
 }
+.produtos img{
+  width: 180px;
+}
 
 }
